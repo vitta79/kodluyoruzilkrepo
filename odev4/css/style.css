@@ -1,0 +1,27 @@
+.stildiv{
+    margin: auto; 
+    position: relative; 
+ 
+    width: 400px; 
+    align-items: center; 
+    text-align: center;
+}
+.stil-a{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: darkblue;
+    text-decoration: solid;
+}
+.stil-img{
+    width: 200px;
+    height: 300px;
+}
+.stil-li{
+    margin-top: 45px;
+}
+.stil-h2{
+    width: 400px;
+    background-color: lightgray;
+    border-radius: 35px;
+}
