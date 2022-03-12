@@ -1,0 +1,49 @@
+.div-cen{
+    width: auto;
+    text-align: center;
+
+}
+.div-cen img{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+.div-cen p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+}
+.div-cen h5{
+    font-weight: lighter;
+    margin: 45px;
+}
+.div-cen input{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.div-cen button{
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    background-color: lightgrey;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+}
+.div-box{
+    float: left;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.div-box p{
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
