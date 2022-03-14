@@ -6,31 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Sayfa</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .nav-link {
+            color: aliceblue;
+        }
+
+        .nav-link:hover {
+            color: #c3c5c7;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Header Start -->
-    <div class="stildiv" >
-        <h1 style="font-family: 'Times New Roman', Times, serif;
-         color: goldenrod;" >Book Shop</h1>
-        <p>
-            <a class="stil-a" href="index.html">Home</a>
-            <a class="stil-a" href="urunlerimiz.html">Products</a>
-            <a class="stil-a" href="hakkimizda.html">About Us</a>
-        </p>
-        <hr>
-    </div>
+    <!-- Header Start-->
+    <header>
+        <div class="container-fluid" style="height: 50px; background-color: #4d4e50;">
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" style="font-weight: bolder;"><a class="nav-link" href="index.html"
+                            style="color: #cc131c !important;">Book Shop</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active"><a class="nav-link" href="urunlerimiz.html">Products</a></li>
+                    <li class="breadcrumb-item active" style=""><a class="nav-link" href="hakkimizda.html">About Us</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
     <!-- Header End -->
     <!-- Content Start -->
-    <div class="stildiv" >
-        <h2 class="stil-h2">Products</h2>
-        <ol>
-            <li class="stil-li"><img class="stil-img" src="img/anna-k.jpg" alt="Anna Karanina" title="Anna Karanina"><br> Anna Karenina - Lev Tolstoy</li>
-            <li class="stil-li"><img class="stil-img" src="img/jane-e.jpg" alt="Jane Eyre" title="Jane Eyre"><br> Jane Eyre - Charlotte Brontë</li>
-            <li class="stil-li"><img class="stil-img" src="img/pet-s.jpg" alt="Pet Sematary" title="Pet Sematary"><br> Pet Sematary - Stephen King</li>
-            <li class="stil-li"><img class="stil-img" src="img/psych.jpg" alt="Littile Book of Psychology" title="Littile Book of Psychology"><br>Littile Book of Psychology</li>
-            
-        </ol>
+    <div class="container-md">
+        <h1 style=" color: #7908a5; font-weight: lighter; text-align: center;">Products</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 250px; height: 300px; margin-left: 15px; margin-top: 15px;" src="img/anna-k.jpg" class="card-img-top" alt="Anna Karanina" title="Anna Karanina" >
+                    <div class="card-body">
+                      <h5 class="card-title">Anna Karenina - Lev Tolstoy</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 250px; height: 300px; margin-left: 15px; margin-top: 15px;" src="img/psych.jpg" alt="Littile Book of Psychology" title="Littile Book of Psychology" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Littile Book of Psychology</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 250px; height: 300px; margin-left: 15px; margin-top: 15px;" src="img/pet-s.jpg" alt="Pet Sematary" title="Pet Sematary" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Pet Sematary - Stephen King</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 250px; height: 300px; margin-left: 15px; margin-top: 15px;" src="img/serenad.jpg" alt="Serenad" title="Serenad" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Serenad - Zülfü Livaneli</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 250px; height: 300px; margin-left: 15px; margin-top: 15px;" src="img/harry.jpg" alt="Harry Potter" title="Harry Potter" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Harry Potter - J.K.Rowling</h5>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
     </div>
     <!-- Content End -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </html>
