@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .text-primary{
+        color: green;
+    }
+    .text-danger{
+        color: red;
+    }
+</style>
+<body>
+    <h2>Java Tutorial</h2>
+    <h3 id="title">Hello World</h3>
+    <script src="script1.js"></script>
+    <h3 id="ornek" onclick="mesaj()">Prompt ile calisma // tikla</h3>
+    <h3>listeye veri ekleme ve silme</h3>
+    <ul id="list">
+        <li>Lorem.</li>
+        <li>Tenetur.</li>
+        <li>Quas.</li>
+    </ul>
+    <h3 onclick="karsilastirma()">Karsilastrima Operatoru</h3>
+    <h3 onclick="varsa()">Kllanici adi varsa yoksa</h3>
+    <h3 onclick="nothesap()">Vize Final notu hesaplama</h3>
+    <h3 id="ifelse">If Else Kisa Kullanimi </h3>
+    <h3 id="sonuc" onclick="hesap()">Not Hesabi</h3>
+    <script>
+        function mesaj(){
+            var mesaj=prompt("Bolumunuz Nedir? ");
+            var varolan=document.querySelector("#ornek");
+            varolan.innerHTML+=` Promp tan gelen mesaj: ${mesaj}`
+        }
+    </script>
+    <script src="liste_uzerinde_islem.js"></script>
+    <script src="karsilastirma.js"></script>
+</body>
+</html>
